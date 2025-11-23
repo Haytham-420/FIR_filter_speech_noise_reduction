@@ -69,3 +69,5 @@ Users can load a `.wav` file, define the filter's parameters, process the audio,
 
       * Manages the creation and cleanup of temporary files used for playback.
 
+
+![Speech Noise Reduction through FIR Bandpass Filtering with Kaiser Window Method_page-0001](https://github.com/user-attachments/assets/ca7bedce-aedf-4c6f-847a-6c6d5af1f42d)
