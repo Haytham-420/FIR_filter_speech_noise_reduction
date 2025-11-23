@@ -1,6 +1,6 @@
 ## FIR Bandpass Filter GUI
 
-This project is a Python-based desktop application that provides a graphical user interface (GUI) for designing and applying Finite Impulse Response (FIR) bandpass filters to audio files using the Kaiser window method.
+This project is a Python-based desktop application that provides a graphical user interface (GUI) for speech noise reduction system based on a Finite Impulse Response (FIR) bandpass filter designed using the Kaiser Window method. Targeting the 80 Hz – 6 kHz range, the filter suppresses low-frequency hums and high-frequency hiss while preserving speech clarity and intelligibility. 
 
 Users can load a `.wav` file, define the filter's parameters, process the audio, and then visualize the results. The application also allows for playback of both the original and filtered audio and saving the processed audio to a new file.
 
@@ -66,4 +66,8 @@ Users can load a `.wav` file, define the filter's parameters, process the audio,
   * **`audio_utils.py`**:
       * Manages all audio playback using `pygame.mixer`.
       * Handles saving the filtered audio to a `.wav` file using `scipy.io.wavfile.write`.
+
       * Manages the creation and cleanup of temporary files used for playback.
+
+
+![Speech Noise Reduction through FIR Bandpass Filtering with Kaiser Window Method_page-0001](https://github.com/user-attachments/assets/ca7bedce-aedf-4c6f-847a-6c6d5af1f42d)
